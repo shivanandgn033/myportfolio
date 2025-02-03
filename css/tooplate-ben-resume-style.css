@@ -230,6 +230,10 @@ https://www.tooplate.com/view/2120-ben-resume
     border-bottom: 1px solid transparent;
   }
 
+  .nav1-link {
+    suffix:none;
+  }
+
   .navbar-toggler {
     border: 0;
     padding: 0;

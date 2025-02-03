@@ -3,7 +3,7 @@
     'use strict'
 
     // MENU
-    $('.navbar .nav-link').on('click',function(){
+    $('.navbar .nav1-link').on('click',function(){
         $(".navbar-collapse").collapse('hide');
     });
 
@@ -43,7 +43,7 @@
 
     // SMOOTHSCROLL
     $(function() {
-      $('.navbar .nav-link').on('click', function(event) {
+      $('.navbar .nav1-link').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 49
