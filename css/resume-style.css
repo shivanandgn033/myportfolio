@@ -308,7 +308,7 @@
 
   .hero-title,
   .email-link {
-    background: var(--light-red-color);
+    background: var(--dark-color);
     border-radius: var(--border-radius-medium);
     color: var(--white-color);
     display: inline-block;
