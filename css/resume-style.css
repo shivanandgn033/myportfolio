@@ -34,7 +34,8 @@
     --white-color:          #ffffff;
     --dark-color:           #010101;
     --menu-bg-color:        #212529;
-
+    --light-red-color:      #D31313;
+    
     --gray-color:           #909090;
     --p-color:              #7d7a7a;
 
@@ -307,7 +308,7 @@
 
   .hero-title,
   .email-link {
-    background: var(--dark-color);
+    background: var(--light-red-color);
     border-radius: var(--border-radius-medium);
     color: var(--white-color);
     display: inline-block;
