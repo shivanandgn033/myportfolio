@@ -233,6 +233,9 @@
   .nav1-link {
     suffix:none;
   }
+  .downloadcv {
+    suffix: none;
+  }
 
   .navbar-toggler {
     border: 0;
