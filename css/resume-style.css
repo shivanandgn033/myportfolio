@@ -62,6 +62,10 @@
 
   body {
     font-family: var(--base-font-family);
+       /* background-color:#ce3635; */
+      /* text-align: center;*/
+       /* color:#010101; */
+       /* padding-top:10em; */
   }
 
 
@@ -236,6 +240,24 @@
   .downloadcv {
     suffix: none;
   }
+
+  .header1 .typed-text {
+    display: none;
+  }
+
+  /* .header1 .typed-cursor {
+    font-size: 10px;
+    font-weight: 100;
+    color: #222222;
+  } */
+  /* body {
+     background-color:#ce3635; 
+    text-align: center;
+    color:#010101; 
+    padding-top:10em;
+  } */
+  
+  * { color:#010101; text-decoration: none;}
 
   .navbar-toggler {
     border: 0;
