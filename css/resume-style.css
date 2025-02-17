@@ -167,7 +167,8 @@
   }
 
   a:hover  {
-    color: var(--dark-color);
+    color: brown;
+    /* color: var(--dark-color); */
     text-decoration: none;
   }
 
@@ -189,7 +190,8 @@
   }
 
   .navbar.scroll {
-    background: var(--menu-bg-color);
+    background: #000435;
+    /* background: var(--menu-bg-color); */
     padding: 0.5rem 1rem;
     position: fixed;
     opacity: 1;
@@ -228,7 +230,8 @@
   }
 
   .nav-link {
-    color: var(--gray-color);
+    color:white;
+    /* color: var(--gray-color); */
     font-weight: var(--font-weight-light);
     font-size: var(--base-font-size);
     border-bottom: 1px solid transparent;
@@ -333,7 +336,8 @@
 
   .hero-title,
   .email-link {
-    background: var(--dark-color);
+    background: #000435;
+    /*background: var(--dark-color);*/
     border-radius: var(--border-radius-medium);
     color: var(--white-color);
     display: inline-block;
