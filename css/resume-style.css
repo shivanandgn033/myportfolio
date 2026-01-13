@@ -32,7 +32,9 @@
   :root {
     --primary-color:        #ffd500;
     --white-color:          #ffffff;
-    --dark-color:           #010101;
+   /* --dark-color:           #010101;*/
+    --dark-color:           #000435;
+
     --menu-bg-color:        #212529;
     --light-red-color:      #D31313;
     
@@ -167,7 +169,7 @@
   }
 
   a:hover  {
-    color: brown;
+    color:   #ffd500;
     /* color: var(--dark-color); */
     text-decoration: none;
   }
@@ -210,7 +212,8 @@
 
   .contact-form #submit-button:hover,
   .navbar .custom-btn:hover {
-    background: var(--dark-color);
+   /* background: var(--dark-color);*/
+   background: var(--light-red-color);
     color: var(--white-color);
   }
 
